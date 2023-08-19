@@ -150,6 +150,18 @@ img {
   color: #fff;
 }
 
+/* Hide content ek bar me ek tab dikhe ga */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content{
+    display: none;
+
+}
+.show{
+    display: block !important;
+}
+
+
 #tab-1-content .tab-1-content-inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -277,7 +289,6 @@ img {
   outline: none;
   box-shadow: 0 1px 0 rgb(0, 0, 0.45);
   border-radius: 5px;
-
 }
 
 .btn:hover {
@@ -299,6 +310,9 @@ img {
   font-size: 1rem;
   padding: 0.8rem 1.3rem;
   text-transform: uppercase;
+}
+.btn-icon{
+    margin-left: 1rem;
 }
 
 @media (max-width: 960px) {
@@ -338,5 +352,22 @@ img {
   }
   .text-md {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+    .showcase::after{
+        box-shadow: inset 45px 60px 200px #000000, inset -45px -60px 200px #000000;
+    }
+  #tab-1-content .tab-1-content-inner {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  #tab-2-content .tab-2-content-top {
+    display: block;
+    text-align: center;
+  }
+  #tab-2-content .tab-2-content-top {
+    grid-template-columns: 1fr;
   }
 }
