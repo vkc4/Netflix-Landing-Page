@@ -20,18 +20,39 @@
     <header class="showcase">
       <div class="showcase-top">
         <img src="img/logo.png" alt="Netflix" />
-        <a href="signup.html" class="btn btn rounded">Sign in</a>
+        <a href="#" class="btn btn rounded">Sign in</a>
       </div>
 
-      <div class="showcase-content">
-        <h1>See what's next</h1>
-        <p>Watch anywhere. Cancel anytime.</p>
-        <a href="#" class="btn btn-xl">
-          Watch free for 30 Days <i class="fas fa-chevron-right btn-icon"></i>
-        </a>
+      <!------------ signup page ----------->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <div class="form-container">
+              <div class="form-btn">
+                <span onclick="login()">Login</span>
+                <span onclick="register()">Register</span>
+                <hr id="Indicator" />
+              </div>
+              <form id="LoginForm">
+                <input type="text" placeholder="Username" />
+                <input type="password" placeholder="Password" />
+                <button type="submit" class="btn">Login</button>
+                <a href="#" style="color: black">Forgot password</a>
+              </form>
+              <form id="RegForm">
+                <input type="text" placeholder="Username" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button type="submit" class="btn">Register</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
+    <!-- tab -->
     <section class="tabs">
       <div class="container">
         <div id="tab-1" class="tab-item tab-border">
@@ -176,24 +197,48 @@
       </div>
     </section>
     <div class="footer-tab"></div>
+
+    <!-- footer -->
+    <div class="footer-tab"></div>
     <footer class="footer">
       <p>Question? Call 1-232-345-5678</p>
       <div class="footer-cols">
         <ul>
           <li><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
-          <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Investor Relation</a></li>
+          <li>
+            <a href="https://ir.netflix.net/ir-overview/profile/default.aspx"
+              >Investor Relation</a
+            >
+          </li>
           <li><a href="https://devices.netflix.com/en/">Ways to Watch</a></li>
-          <li><a href="https://help.netflix.com/legal/corpinfo">Corporate Information</a></li>
-          <li><a href="https://www.netflix.com/in/browse/genre/839338">Netflix Originals</a></li>
+          <li>
+            <a href="https://help.netflix.com/legal/corpinfo"
+              >Corporate Information</a
+            >
+          </li>
+          <li>
+            <a href="https://www.netflix.com/in/browse/genre/839338"
+              >Netflix Originals</a
+            >
+          </li>
         </ul>
         <ul>
           <li><a href="https://help.netflix.com/en/">Help Center</a></li>
           <li><a href="https://jobs.netflix.com/">Jobs</a></li>
-          <li><a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a></li>
-          <li><a href="https://help.netflix.com/en/contactus">Contact Us</a></li>
+          <li>
+            <a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a>
+          </li>
+          <li>
+            <a href="https://help.netflix.com/en/contactus">Contact Us</a>
+          </li>
         </ul>
         <ul>
-          <li><a href="https://www.netflix.com/in/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount">Acount</a></li>
+          <li>
+            <a
+              href="https://www.netflix.com/in/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount"
+              >Acount</a
+            >
+          </li>
           <li><a href="#">Reedem Gift Cards</a></li>
           <li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
           <li><a href="https://fast.com/">Speed Test</a></li>
@@ -202,7 +247,9 @@
           <li><a href="https://media.netflix.com/en/">Media Center</a></li>
           <li><a href="#">Buy Gift Cards</a></li>
           <li><a href="https://www.netflix.com/in/">Cookies preferences</a></li>
-          <li><a href="https://help.netflix.com/legal/notices">Legal Notice</a></li>
+          <li>
+            <a href="https://help.netflix.com/legal/notices">Legal Notice</a>
+          </li>
         </ul>
       </div>
     </footer>
