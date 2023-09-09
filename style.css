@@ -110,6 +110,54 @@ img {
   margin: 0 0 2rem;
 }
 
+.form{
+  display: flex;
+  /* width: 20rem; */
+  height: 3rem;
+  
+ 
+}
+
+.form div{
+  width: 500px;
+  height: 3rem;
+  position: relative; 
+ 
+ 
+}
+.form input{
+  height: 100%;
+  width: 100%; 
+  border: none;
+  padding: 1.5rem;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+::placeholder {
+  color: white;
+}
+input[type=text] {
+  background-color: rgba(0, 0, 0, 0.553);
+
+}
+input:focus{
+  outline: none;
+}
+.form btn{
+   width: 250px;
+   background-color: #e50914;
+   font-size: 1.875rem;
+}
+.form label{
+  position: absolute;
+  left: 10px;
+  color: #fff;
+  /* color:rgba(128, 128, 128, 0.301); */
+ 
+  
+}
 /* ---------- signup page---------- */
 
 .form-container {

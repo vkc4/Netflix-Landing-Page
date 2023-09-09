@@ -43,6 +43,7 @@ function removeShow() {
 
 tabItems.forEach((item) => item.addEventListener("click", SelectItem));
 
+// Rotatin code 
 
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
@@ -100,3 +101,8 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
+
+
+
+// ######### This is the email subbmistion js ##########
+// document.getElementById("emailSubmit").innerHTML = 
