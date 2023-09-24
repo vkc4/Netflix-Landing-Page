@@ -130,16 +130,20 @@ img {
   width: 100%; 
   border: none;
   padding: 1.5rem;
-  color: white;
+  color: rgb(0, 0, 0);
   letter-spacing: 0.1rem;
   font-size: 0.9rem;
   font-weight: 100;
 }
 ::placeholder {
-  color: white;
+  color: black;
 }
-input[type=text] {
-  background-color: rgba(0, 0, 0, 0.553);
+/* input[type=text] {
+  
+
+} */
+input[type=text]::placeholder {
+  color: #000;
 
 }
 input:focus{
